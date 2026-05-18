@@ -8,3 +8,10 @@ sources:
     tables:
       - name: Address      # actual table name
         description: "Raw address smple"
+
+      - name: Addresses      # actual table name
+        description: "Raw address info"
+      
+      - name: Products      # actual table name
+        description: "Raw Products info"  
+          
