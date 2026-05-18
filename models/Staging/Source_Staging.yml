@@ -1,0 +1,10 @@
+
+version: 2
+
+sources:
+  - name: STAGING                # logical grouping
+    database: DBT_TRAINING
+    schema: DBT_RAW           # schema in your warehouse
+    tables:
+      - name: Address      # actual table name
+        description: "Raw address smple"
