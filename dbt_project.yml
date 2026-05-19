@@ -43,6 +43,8 @@ models:
     Staging:
       +schema: STAGING
       +materialized: table
+    Materialization:
+      +schema: MATERIALIZATION
 seeds:
   +schema: raw
   
