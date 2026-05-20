@@ -1,1 +1,1 @@
-select * from {{ ref('Products') }} where price > 0
+select * from {{ ref('Products') }} where price < 0

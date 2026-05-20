@@ -14,6 +14,11 @@ sources:
       
       - name: Products      # actual table name
         description: "Raw Products info"  
+        columns:
+          - name: productid
+            tests:
+             -  unique
+             - not_null
 
       - name: CityTemperature_Celsius      # actual table name
         description: "City Temperature info"            
