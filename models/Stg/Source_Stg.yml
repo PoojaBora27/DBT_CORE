@@ -1,0 +1,9 @@
+version: 2
+sources:
+  - name: Stg
+    database: DBT_TRAINING
+    schema: Raw
+    tables:
+      - name: Orders
+      - name: Product
+      - name: Customer

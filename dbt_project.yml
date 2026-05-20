@@ -45,8 +45,10 @@ models:
       +materialized: table
     Materialization:
       +schema: MATERIALIZATION
+    Stg:
+      +schema: STG
+      +materialized: table
 seeds:
   +schema: raw
 snapshots:
   +target_schema: SNAPSHOTS
-  

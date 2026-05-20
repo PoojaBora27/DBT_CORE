@@ -1,0 +1,7 @@
+product_id,product_name,category,price,createdat,createdby
+P001,Laptop,Electronics,1200,2026-04-15,7
+P002,Headphones,Electronics,150,2026-04-16,9
+P003,Office Chair,Furniture,300,2026-04-17,7
+P004,Coffee Maker,Appliances,80,2026-04-18,8
+P005,Smartphone,Electronics,900,2026-04-19,9
+P006,Desk,Furniture,250,2026-04-20,7

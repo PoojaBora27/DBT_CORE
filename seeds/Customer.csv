@@ -1,0 +1,7 @@
+customer_id,first_name,last_name,email,signup_date,updated_at
+C001,Asha,Patil,asha.patil@example.com,2026-01-10,2026-05-01 09:00:00
+C002,Raj,Sharma,raj.sharma@example.com,2026-01-12,2026-05-01 11:00:00
+C003,Meera,Joshi,meera.joshi@example.com,2026-01-15,2026-05-02 09:30:00
+C004,Vikram,Desai,vikram.desai@example.com,2026-01-20,2026-05-03 15:45:00
+C005,Neha,Kulkarni,neha.kulkarni@example.com,2026-01-25,2026-05-04 18:00:00
+C006,Arjun,Rao,arjun.rao@example.com,2026-01-28,2026-05-04 19:20:00
