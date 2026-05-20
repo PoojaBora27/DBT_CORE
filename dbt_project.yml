@@ -47,4 +47,6 @@ models:
       +schema: MATERIALIZATION
 seeds:
   +schema: raw
+snapshots:
+  +target_schema: SNAPSHOTS
   
