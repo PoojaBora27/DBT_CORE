@@ -40,3 +40,13 @@ models:
     # Applies to all files under models/example/
     example:
       +materialized: table
+    Staging:
+      +schema: STAGING
+      +materialized: table
+    Materialization:
+      +schema: MATERIALIZATION
+seeds:
+  +schema: raw
+snapshots:
+  +target_schema: SNAPSHOTS
+  

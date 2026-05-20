@@ -1,0 +1,1 @@
+select * from {{ ref('Products') }} where price < 0

@@ -1,0 +1,24 @@
+
+version: 2
+
+sources:
+  - name: STAGING                # logical grouping
+    database: DBT_TRAINING
+    schema: DBT_RAW           # schema in your warehouse
+    tables:
+      - name: Address      # actual table name
+        description: "Raw address smple"
+
+      - name: Addresses      # actual table name
+        description: "Raw address info"
+      
+      - name: Products      # actual table name
+        description: "Raw Products info"  
+        columns:
+          - name: productid
+            tests:
+             -  unique
+             - not_null
+
+      - name: CityTemperature_Celsius      # actual table name
+        description: "City Temperature info"            
