@@ -11,6 +11,11 @@ sources:
 
       - name: Addresses      # actual table name
         description: "Raw address info"
+        columns:
+          - name: addressid
+            tests:
+             -  unique
+             - not_null
       
       - name: Products      # actual table name
         description: "Raw Products info"  

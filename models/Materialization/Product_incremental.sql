@@ -7,3 +7,6 @@
 select *
 from {{ source('STAGING', 'Products') }}
 where createdby in ('7','9')
+{% if is_incremental() %}
+  and createdat > (select max(createdat) from {{ this }})
+{% endif %}
